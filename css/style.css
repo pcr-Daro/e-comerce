@@ -1,0 +1,110 @@
+    body {
+        background-color: azure;
+    }
+    
+    .logo {
+        width: 200px;
+        height: 200px;
+        text-align: justify;
+        border-radius: 50px;
+        border-color: darkmagenta;
+        margin-left: 35px;
+    }
+    
+    nav {
+        background-color: antiquewhite;
+    }
+    
+    .barra {
+        display: flex;
+        margin: 12px;
+        padding: 10px;
+        border: 1px;
+        border-style: solid;
+        border-color: lightgray;
+    }
+    
+    li {
+        display: inline;
+        margin: 10px;
+    }
+    
+    .container {
+        background-image: url("../img/47581.jpg");
+        background-size: cover;
+        margin-left: 10px;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        padding: 10px;
+    }
+    
+    .barra li {
+        list-style: none;
+        font-weight: bold;
+        color: black;
+    }
+    
+    .barra li:hover {
+        cursor: pointer;
+        color: red;
+    }
+    
+    .fin img {
+        float: left;
+        margin-right: 20px;
+        width: 50px;
+        height: 50px;
+        border-radius: 10px;
+        border-color: aliceblue;
+    }
+    
+    .container img {
+        display: flex;
+        height: 350px;
+        width: 350px;
+        border-style: solid;
+        border-color: blue;
+    }
+    
+    .container h1 {
+        text-align: justify;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        font-style: oblique;
+        color: black;
+    }
+    
+    .container h1:hover {
+        color: yellow;
+    }
+    
+    .container button {
+        border-radius: 5px;
+        border-color: rgb(241, 112, 194);
+    }
+    
+    .container p {
+        color: coral;
+        line-height: 1.0;
+        background-color: aliceblue;
+    }
+    
+    .fin {
+        border-radius: 25px;
+        border-color: black;
+        border-style: solid;
+        background-color: blueviolet;
+    }
+    
+    @media (min-width:510px) {
+        .container {
+            width: 45%;
+        }
+    }
+    
+    @media (min-width:815px) {
+        .container {
+            width: 90%;
+        }
+    }
+    /*en cuando la pantalla este a full quiero que se vean de 2 en 2 no todo en columna/*
